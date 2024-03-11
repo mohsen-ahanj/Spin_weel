@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>گردونه شانس حضرتی فود</title>
+  <!-- add fevicon -->
+  <link rel="icon" type="image/x-icon" href="./icon/favicon.ico" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Noto+Sans+Arabic:wght@200;400;700;900&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="site-logo">
+  </div>
+  <div class="wrapper">
+    <form action="spin.html">
+      <p id="final-value"> نام و نام خانوادگی</p>
+      <input type=”text” class="type-1" onkeypress="return /[آ-ی\s]/i.test(event.key)" required />
+      <p id="final-value">شماره تلفن همراه</p>
+      <input type=”tel” class="type-1" id="phone" name="phone" placeholder="09*********" minlength="11" maxlength="11" required></br>
+      <br><br><input type="submit" class="type-2" value="شروع" />
+      <p id="final-value">کد احراز هویت</p>
+      <input type=”number” class="type-1" id="validation" name="validation" placeholder="*****" minlength="5" maxlength="5" required>
+    </form>
+    <div>
+      <h2 id="final-value">گردونه شانس با کلی جایزه های متنوع برای مشتریان که سفارش خود را تلفنی ثبت میکنند</h2>
+    </div>
+  </div>
+  <!-- Chart JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <!-- Chart JS Plugin for displaying text over chart -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
